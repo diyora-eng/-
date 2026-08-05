@@ -1,9 +1,9 @@
-fun main(){
-val list = listOf(1, 2, 3, 4, 5)
-val reversedList = mutableListOf<Int>()
-for (i in list.size - 1 downTo 0) {
-    reversedList.add(list[i])
-}
+ val numbers = listOf(4, 8, 15, 16, 23, 42)
+ val sum = numbers.sum()
+ val average = numbers.average()
+  
 
-println(reversedList)
-}
+fun main(){
+    println("Сумма: $sum")       
+    println("Среднее: $average")
+    }
